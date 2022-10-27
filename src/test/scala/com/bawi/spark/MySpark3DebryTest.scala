@@ -8,7 +8,7 @@ import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should.Matchers
 import org.scalatest.{BeforeAndAfter, GivenWhenThen}
 
-class MySpark3Test extends AnyFlatSpec with BeforeAndAfter with GivenWhenThen with Matchers {
+class MySpark3DebryTest extends AnyFlatSpec with BeforeAndAfter with GivenWhenThen with Matchers {
 
     private var spark: SparkSession = _
 
