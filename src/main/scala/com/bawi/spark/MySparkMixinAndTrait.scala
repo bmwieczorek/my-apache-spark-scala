@@ -1,5 +1,5 @@
 package com.bawi.spark
-
+/*
 import com.typesafe.config.{Config, ConfigFactory}
 import org.apache.spark.SparkContext
 import org.apache.spark.groupon.metrics.UserMetricsSystem
@@ -9,7 +9,7 @@ import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.apache.spark.util.LongAccumulator
 import org.slf4j.{Logger, LoggerFactory}
 
-/*
+
 class ConfigurationProvider(configName: String) extends Serializable {
   private val LOGGER: Logger = LoggerFactory.getLogger(getClass)
   lazy val config: Config = ConfigFactory.load(configName)
